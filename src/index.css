@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,900;1,100;1,200;1,300;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+} 
+*/
+
+h1 {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap
+}
+
+.App {
+  max-height: 100%;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  background-color: darkslategray;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+Main {
+  width: 100%;
+}
+
+Nav {
+  width: 30%;
+}
+
+Header {
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  z-index: 999999;
+}
+
+Footer {
+  position: sticky;
+}
+
+.date,
+.author {
+  font-size: 16px;
+}
+
+.date {
+  font-weight: 300;
+}
+
+.author {
+  font-weight: 600;
+}
+.card-horizontal img{
+  width: 45% !important;
+}
+
+.card-horizontal{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+Main .card h1{
+  cursor:pointer;
+}
